@@ -1,0 +1,82 @@
+.bg-image{
+  display: none;
+}
+.LoginPara{
+  width: 80%;
+  margin: auto;
+}
+.loginForm{
+  color: #131b58;
+  width: 80%;
+  margin: auto;
+  .loginTitle{
+    font-size: 2rem;
+  }
+
+ label{
+   width: 100%;
+ }
+
+ /* .loginSubmit{
+    display: inline-flex;
+      a{
+        font-size: 0.6rem;
+        margin-left: 5%;
+      }
+    input{
+      border-radius:unset;
+      background: orange;
+      border: 1px solid #131b58;
+      padding: 0 50px 0 10px;
+
+    }
+
+  }
+  */
+}
+
+.SubmitBtn{
+  border-radius:unset;
+  background: orange;
+  border: 1px solid #131b58;
+  color: black;
+
+}
+.loginContainer {
+  z-index: 2;
+  background: white;
+}
+
+@media (min-width: 1200px) {
+  .loginContainer{
+    z-index: 2;
+    width: 50%;
+    margin: 60px auto;
+    padding: 10px 0 5% 0;
+    box-shadow: 0px 10px 20px;
+  }
+
+  .bg-image{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+.UsersContainer{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding: 0px 0px 10% 0;
+
+}
